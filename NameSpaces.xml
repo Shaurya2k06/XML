@@ -1,0 +1,19 @@
+<root xmlns:h="http://www.abc/1234.com"
+xmlns:f="http://www.abc.com/123">
+
+<h:table>
+  <h:tr>
+    <h:td>Apples</h:td>
+    <h:td>Bananas</h:td>
+  </h:tr>
+</h:table>
+
+<f:table>
+  <f:name>African Coffee Table</f:name>
+  <f:width>80</f:width>
+  <f:length>120</f:length>
+</f:table>
+
+</root>
+
+<--- Use this to resolve name conflicts --->
