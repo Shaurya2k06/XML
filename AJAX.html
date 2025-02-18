@@ -6,7 +6,6 @@
 <h1>The XMLHttpRequest Object</h1>
 <button type="button" onclick="loadDoc()">Change Content</button>
 </div>
-
 <script>
 function loadDoc() {
   var xhttp = new XMLHttpRequest();
@@ -16,10 +15,12 @@ function loadDoc() {
       this.responseText;
     }
   };
-  xhttp.open("GET", "ajax_info.txt", true);
+  xhttp .open("GET", "ajax_info.txt", true);
   xhttp.send();
 }
 </script>
 
 </body>
 </html>
+
+<!---- For additional Info go to https://www.w3schools.com/xml/ajax_applications.asp-->
